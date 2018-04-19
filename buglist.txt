@@ -1,0 +1,10 @@
+List of bugs:
+
+(1) Test 4 of addBack() fails to return the correct value at the end of the list after verifying that a value was indeed added for the second time. 
+    Therefore, addBack() is almost certainly adding the value to the front instead.
+
+(2) Test 3 of Non-Empty List Search fails to return false if the list is verified to be non-empty. Therefore, isEmpty() seems to always return true.
+
+(3) Tests 1-3 of removeBack() fail to return correctly. Therefore, removeBack() is non-functional no matter the status of the list.
+
+(4) Tests 1-3 of removeFront() fail to return correctly. Therefore, removeFront() is non-functional no matter the status of the list. 
